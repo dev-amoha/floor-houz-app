@@ -1,0 +1,1018 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.App{
+ 
+  text-align: center;
+}
+.body{
+  width: 100%;
+  height: 100vh;
+}
+
+
+/*DashBorad Css*/
+@media only screen and (max-width: 900px){
+.Menu-icon{
+  color:white;
+  background-color:#0062a5;
+  
+ }
+.DashBoard-Bottom-Bar{
+  
+  display: none;
+  visibility: hidden;
+}
+ 
+}
+
+@media only screen and (min-width: 900px) {
+  .Menu-icon{
+    visibility:hidden;
+  display:none;
+  
+ }
+ 
+}
+
+
+@media only screen and (max-width: 650px){
+.Search-Bar{
+   display:none;
+ }
+}
+@media only screen and (max-width: 900px){
+  .Search-Bar{
+   width:300px;
+   
+ }
+}
+@media only screen and (min-width: 1000px){
+  .Search-Bar{
+   width:auto;
+   
+ }
+}
+
+.justify-content-end{
+justify-content: flex-start!important;
+}
+
+@media only screen and (max-width: 400px){
+  .Log-In-Btn{
+    
+    visibility:hidden;
+  display:none;
+  
+}
+ 
+}
+
+@media only screen and (min-width: 400px){
+.Log-In-Btn{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top:0px!important;
+  margin-bottom:0px!important;
+  margin: 0px 10px 0px 20px;
+  border-radius: 0px!important;
+  width: 90px;
+  height: 60px;
+  background-color:#009acc!important;
+  
+}
+}
+
+
+.navbar{
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+}
+.container-fluid{
+  padding-left:0!important ;
+  padding-right:0px!important;
+}
+
+@media only screen and (min-width: 1000px){
+  .Navbar-menu{
+  width: 400px;
+  display:flex;
+  justify-content: space-around;
+  color: #2b0e44!important;
+}
+
+}
+@media only screen and (max-width: 1000px){
+  .Navbar-menu{
+  display:none;
+}
+
+}
+/* Pincode-Bar */
+
+.Query-bar{
+  width: 100%;
+  margin-top: 70px;
+  padding-left:10px;
+      background-color:#0062a5
+}
+
+.Query {
+  width:auto;
+  padding-top:10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+
+
+/* Filter-Left-Bar */
+
+
+@media only screen and (max-width: 1000px){
+.Filter-Left-Bar{
+  display:none;
+
+}
+
+}
+
+/* Filter-Bottom-bar */
+@media only screen and (min-width: 1000px)
+{
+.Filter-Bottom-bar{
+      display: none;
+}
+}
+
+.Bottom-Filter-by-btn{
+      border-radius: 0px!important;
+}
+
+.Bottom-Short-by-btn{
+      border-radius: 0px!important;
+}
+
+
+
+/* Tab-Mobile-Menu */
+
+.Tab-Mobile-Menu{
+background-color:#0062a5!important; 
+}
+
+.Tab-Mobile-Menu-List{
+    font-family: Poppins;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+
+.Navigation-Btn-1{
+  margin:10px 0 0 54px ;
+  color:white;
+}
+
+
+.Navigation-Btn-2{
+  margin:10px 0 0 54px ;
+  color:white;
+}
+.Navlink{
+  color:whitesmoke!important;
+
+}
+
+.Navlink:hover{
+ zoom:110%!important;
+ font-weight:bold;
+  
+}
+
+.Rectangle-2 {
+  
+  height: 600px;
+  background-color: #0062a5;
+ 
+}
+img.FloorHouz {
+  width: 172.9px;
+  height: 26px;
+  margin: 100px 0 0 50px;
+  object-fit: contain;
+}
+
+.Rectangle-2-Copy {
+  display:flex;
+  height: 80px;
+  background-color: white;
+  
+}
+.cheapest_discount_hardwood_flooring_near_me_los_angeles {
+ 
+  
+  height: 300px;
+  background-color: rgb(219, 132, 132);
+}
+
+.spinner {
+  margin-top:20px;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.left-right-arrow{
+  display:flex;
+
+}
+
+.types-of-flooring-hero-A {
+ 
+  height: 600px;
+  background-color:rgb(99, 113, 177);
+}
+
+.black-bg {
+  width:auto;
+  height: 380px;
+  background-color: #021f33;
+}
+.white-bg-bottom {
+
+  height: 380px;
+  background-color:white;
+}
+.white-bg-bottom-top {
+  
+  height: 103px;
+  background-color: #009acc;
+}
+.row>*{
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+.Please-enter-your-PI {
+  width: 200px;
+  height: 57px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+.BrandName{
+  display:grid;
+  margin:230px 0 40px 100px;
+  
+}
+.white-bg {
+  
+  height: 350px;
+  background-color: #fefefe;
+  display: grid;
+   
+}
+.hero {
+ 
+  height: 630px;
+  background-color:orange
+}
+.title-1{
+margin:400px 60px 200px 100px;
+}
+
+.title {
+  
+  width: 504px;
+  height: 68px;
+  object-fit: contain;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.25px;
+  color: white;
+}
+
+.Social-icon-share-btn{
+  width:600px;
+  height: 100px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.title .text-style-1 {
+  margin-left: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+img.FloorHouz-brand {
+  width: 293px;
+  height: 44px;
+  margin: 0 0 17px;
+  object-fit: contain;
+}
+
+
+img.sub-title {
+  width: 251px;
+  height: 30px;
+  margin: 17px 42px 0 0;
+  object-fit: contain;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.07px;
+  color: #031420;
+}
+
+.Line {
+  
+  width: 260px;
+  height: 2px;
+  margin: 20px 0 0 54px;
+  opacity: 0.5;
+  border: solid 0.7px white;
+  position: relative;
+}
+
+
+
+.Request-Call {
+  margin : 20px 0 0px 54px;
+  width: 118px;
+  height: 24px;
+  object-fit: contain;
+  font-family: Helvetica;
+  font-size: 19.2px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.12px;
+  color: #031420;
+}
+.requestcall-icon{
+ color:#0062a5;
+  font-size:40px;
+}
+.Shape {
+  width: 20px;
+  height: 62px;
+  border: solid 0.5px #0062a5;
+  background-color: #0062a5;
+}
+
+
+.platForm {
+  width: 392px;
+  height: 38px;
+  padding-right: 50px;
+  object-fit: contain;
+  text-shadow: 0 0 5px rgba(36, 36, 36, 0.5);
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: 0.19px;
+  color: white;
+}
+
+.platForm-box{
+  margin:0px 30px 0px 80px;
+        display:flex;
+        overflow:hidden;
+}
+
+.socialIcon{
+  position:relative;
+  justify-content:space-between;
+  margin:50px 0 0 500px;
+  width:30px;
+  height: 500px;
+  display:grid;
+}
+
+
+.FacebookCopy {
+  width: 86px;
+  height: 20px;
+  transform: rotate(-90deg);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.58px;
+  color: white;
+}
+.search-icon {
+  width: 86px;
+  height: 20px;
+  margin-left:30px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.58px;
+  color: white;
+}
+.InstagramCopy {
+  width: 86px;
+  height: 20px;
+  transform: rotate(-90deg);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.58px;
+  color: white;
+}
+
+.TwitterCopy {
+  width: 86px;
+  height: 20px;
+  transform: rotate(-90deg);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 0.58px;
+  color: white;
+}
+
+.QuoteLike{
+  
+  width:200px;
+  display:flex;
+  justify-content: space-between;
+
+}
+.Card1{
+  color: white!important;
+  background-color: #021f33!important;;
+}
+
+
+
+
+
+
+.product-page-brand-Name{
+  height:40px;
+  border-radius: 4px;
+  padding: 5px;
+  width:200px; 
+} 
+
+
+
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+
+.left-pan {
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    width:400px;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+
+
+.navbar{
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24), 0 0 3px 0 rgba(0, 0, 0, 0.12);
+}
+.Bottom-bar{
+  height: 150px;
+  background-color: #0062a5;
+}
+.Nav-Btn-Line {
+  margin-top: 10px;
+  width: 1px;
+  height: 25px;
+  border: solid 1px #cdcdcd;
+}
+
+.Bottom-social-icon{
+  width:150px;
+  display:flex;
+  justify-content:space-around
+}
+.Term-policy{
+  display:flex;
+  color:white;
+  width: 700px;
+  justify-content:space-around;
+}
+
+.-Registerd-Com {
+  
+  width: 350px;
+  height: 17px;
+  opacity: 0.5;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: white;
+}
+
+.Best-viewed-on-Chrom {
+  width: 500px;
+  height: 15px;
+  opacity: 0.5;
+  font-family: ProximaNova;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: white;
+}
+.company-address{
+display:grid;
+}
+
+
+.product-Rectangle{
+  display:flex;
+}
+
+.mb-3{
+  padding-left: 15px;
+  width: 400px !important;
+}
+
+.pincode-btn{
+  background-color:#44addd!important ;
+  margin-left: 15px;
+}
+a, u {
+  text-decoration: none!important;
+  
+}
+.AnchorCard{
+ color:black!important ;
+}
+
+.main-container{
+
+  position:absolute!important;
+  
+}
+
+
+
+.web-Query-bar{
+  width:300px;
+  height:40px;
+  position: absolute!important;
+  right:10px;
+  background-color:#0062a5;
+  border-radius:5px;
+ 
+}
+
+
+
+.Query-result{
+  display:flex;
+  color:white;
+}
+
+.search-pincode-result{
+
+  font-size:20px;
+  font-weight: bold;
+}
+
+.filter{
+  padding:50px 30px 50px 20px;
+}
+.filter-btns{
+  
+  display:flex;
+  justify-content:space-around;
+  margin-top: 30px;
+}
+
+.css-1s2u09g-control{
+  border-color: white!important;
+  padding-bottom: 20px;
+  
+}
+
+.Slider-Box{
+  padding:10px;
+}
+.Select-seperate {
+  
+  height: 2px;
+  opacity: 0.2;
+  background-color: black;
+}
+.Product-items{
+  
+  padding: 20px 20px 0 20px;
+  
+}
+
+.css-s1jfdj-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+  border-radius: 0px!important;
+}
+.css-s1jfdj-MuiButtonBase-root-MuiPaginationItem-root {
+  padding:0 30px!important;
+}
+
+.Product-info{
+  margin-top:100px;
+}
+.card{
+  margin: 20px!important;
+}
+.li{
+  padding-left: 40px!important;
+}
+.modal-heading{
+  padding:20px 20px 10px 10px;
+}
+.Modal-Body{
+  
+ text-align:center;
+}
+
+.Avilable-Size-Btn-modal{
+    width:230px;
+    margin: 20px;
+    border-radius: 0!important
+}
+.Please-enter-your-PI-modal {
+
+  font-family: Poppins;
+  font-size: 18px;
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+.css-wjh20t-MuiPagination-ul{
+  padding: 15px!important;
+  /* margin-left: 200px !important; */
+}
+
+
+.Card-Title{
+  font-family: Avenir;
+  display: flex;
+  justify-content: space-between;
+}
+.Card-Description{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagecarousal{
+  margin: 50px 0 0 30px;
+  width:90%;
+  
+  
+}
+.ProductDetail-Heading{
+  font-family: Poppins;
+  margin: 50px 0 0 30px;
+  
+  padding:20px
+}
+
+.ProductDetail-Heading1{
+  font-family: Poppins;
+  margin-top: 50px;
+  display:flex;
+}
+
+.ProductDetail-Heading2{
+  font-family: Poppins;
+  margin-top: 50px;
+}
+
+
+.Avilable-Color{
+
+  display:flex;
+}
+
+.Image1 {
+  margin:30px;
+  width: 40px;
+  height: 40px;
+  background-color: #3b3b3b;
+}
+
+.Image2 {
+  margin: 30px ;
+  width: 40px;
+  height: 40px;
+  background-color: #898989;
+}
+
+.Image3{
+  margin: 30px ;
+  width: 40px;
+  height: 40px;
+  background-color: #8e6c6c;
+}
+
+.Image4 {
+  margin: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: #742f2f;
+}
+
+.Avilable-Size-Btn{
+  display: flex;
+}
+.Avilable-Size-Btn1{
+  margin: 10px;
+  border-radius: 0!important;
+   background-color: #009acc!important;
+}
+
+.Avilable-Size-Btn2{
+    margin: 10px;
+    border-radius: 0!important
+}
+
+.Avilable-Size-Btn3{
+    margin: 10px;
+    border-radius: 0!important
+}
+
+.Avilable-Size-Btn4{
+    margin: 10px;
+    border-radius: 0!important
+}
+
+
+.ProductDetail-Heading4{
+  
+  width: 80%;
+ padding: 30px;
+ display: flex;
+}
+
+.ProductDetail-application-feature{
+  font-family: Poppins;
+     margin-left: 50px;
+     padding:10px 0 0 50px;
+}
+.Application-Box{
+  display: flex;
+  
+}
+
+.Feature-Box{
+  display: flex;
+  
+}
+
+.Image01 {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #c4eafb;
+}
+
+.ProductDetail-Price-box{
+  padding:10px 0 0 30px!important;
+  margin: 10px;
+  background-color: #9edffc;
+}
+.Get-to-know-about-av {
+ 
+  height: 17px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #009acc;
+}
+
+.Product-Details {
+  padding-top: 20px;
+  margin: 30px 0 0 50px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+}
+.Lorem-ipsum-dolor-si {
+  padding-top: 10px;
+  margin:  0 0 0 50px; 
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #22232b;
+}
+
+.Similar-Product {
+  
+  padding-left: 50px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272727;
+}
+.Similar-Product-Cards{
+  display:flex;
+  margin-left: 50px;
+}
+.Add-to-wishlist {
+  
+  
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0062a5;
+}
+
+.Request-call {
+ 
+  
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0062a5;
+}
+.request-Card{
+  margin-top: 100px!important;
+  display:flex!important;
+}
+
+.request-Card-details{
+  margin-top: 100px!important;
+  border: 0px!important;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #22232b;
+
+}
+
+
+.request-Card-Price{
+  margin-top:50px;
+}
+
+.Request-Card-Brand{
+
+  opacity: 0.5;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #22232b;
+
+}
+.request-call-form{
+    height:800px;
+    margin-top: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  color: #000;
+}
+
+.form-control{
+  
+  line-height:2.5em!important;
+  border-radius:0px!important;
+}
+
+.request-call-input-box{
+    margin: 20px 20px 0 20px!important;
+}
+
+.requestCall-Size-Btn3{
+ 
+    align-items: center;
+  width: 200px;
+    margin: 10px;
+    border-radius: 0!important
+}
+.Request-submit{
+padding:50px;
+}
+
+    

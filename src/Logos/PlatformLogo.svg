@@ -1,0 +1,16 @@
+<svg width="350" height="42" viewBox="0 0 350 42" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-1.9%" y="-19.5%" width="103.8%" height="145.8%" filterUnits="objectBoundingBox" id="vqslocmu3a">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.143024389 0 0 0 0 0.143024389 0 0 0 0 0.143024389 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+        </filter>
+        <text id="8dffx6ugsb" font-family="Poppins-SemiBold, Poppins" font-size="30" font-weight="500" letter-spacing=".187" fill="#FFF">
+            <tspan x="40.8" y="524.6">Unique Platform for all</tspan>
+        </text>
+    </defs>
+    <g transform="translate(-37.2 -496)" fill="#FFF" fill-rule="evenodd">
+        <use filter="url(#vqslocmu3a)" xlink:href="#8dffx6ugsb"/>
+        <use xlink:href="#8dffx6ugsb"/>
+    </g>
+</svg>
